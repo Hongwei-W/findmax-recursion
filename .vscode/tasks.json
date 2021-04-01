@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "compile",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-g",
+                "${workspaceFolder}/test.c",
+                "-o",
+                "1",
+                "-O"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
