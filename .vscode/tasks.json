@@ -10,7 +10,7 @@
                 "-g",
                 "${workspaceFolder}/test.c",
                 "-o",
-                "1",
+                "test",
                 "-O"
             ],
             "problemMatcher": [

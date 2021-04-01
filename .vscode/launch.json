@@ -9,7 +9,7 @@
             //"preLaunchTask": "${workspaceFolder}/build",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/1",
+            "program": "${workspaceFolder}/test",
             "args": ["10000000", "recur", "100000"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
